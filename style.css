@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(210, 245, 245);
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+h1{
+    color: darkblue;
+    background: linear-gradient(to top,blue,hotpink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+    color: green;
+}
+h3{
+    color: rgb(121, 7, 166);
+}
+b{
+    color: red;
+}
+i{
+    color: darkblue;
+}
+mark{
+    background-color: rgb(210, 191, 247);
+}
+u{
+    color: green;
+}
+table{
+    background-color: aliceblue;
+    width: 100%;
+    border: 3px solid darkblue;
+    border-collapse: collapse;
+}
+th{
+    background-color: darkblue;
+    color: aliceblue;
+}
+div{
+    background-color: rgb(173, 173, 242);
+    border:5px solid blueviolet;
+    border-radius: 30px;
+    border-top-color:blue;
+    border-left-color: red;
+    border-bottom-color: yellow;
+    margin: 50px;
+    padding: 50px;
+
+}
+img{
+    border: 5px double blue;
+    border-radius: 50%;
+}
+.info{
+  background-color: rgb(160, 160, 246);  
+  background: linear-gradient(135deg,rgb(13, 3, 191),red);
+}
+.about-me{
+    background-color: rgb(253, 145, 145);
+    
+}
+.hobbies{
+    background-color: rgb(234, 203, 181);
+}
+.routine{
+    background-color: rgb(244, 179, 192);
+}
+.skills{
+    background-color: rgb(205, 240, 171);
+}
+.grades{
+    background-color: rgb(183, 213, 244);
+}
+header{
+    background-color: rgb(156, 97, 210);
+}
+nav{
+    display: inline;
+}
+nav a{
+    background-color: darkturquoise;
+    border: 3px solid purple;
+    border-radius: 10px;
+    color: rgb(19, 3, 244);
+    text-decoration: none;
+    font-weight: 500;
+}
+ul{
+    list-style-type:disclosure-open;
+}
